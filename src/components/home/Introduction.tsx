@@ -26,7 +26,7 @@ const Introduction = () => {
           >
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1527137342181-19aab11a8ee1?q=80&w=2070&auto=format&fit=crop" 
+                src="https://i.ibb.co.com/XZpqp20b/senior-woman-psychotherapist-counselor-writing-something-down-notebook-therapy-session-with-frustrat.jpg" 
                 alt="Psychology Session" 
                 className="w-full h-auto object-cover"
               />
