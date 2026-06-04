@@ -2,6 +2,7 @@ import Contact from "@/components/home/Contact";
 import CoreServices from "@/components/home/CoreServices";
 import Hero from "@/components/home/Hero";
 import Introduction from "@/components/home/Introduction";
+import MentalHealthDetail from "@/components/home/MentalHealthDetail";
 import ServiceCategories from "@/components/home/ServiceCategories";
 import Team from "@/components/home/Team";
 
@@ -12,6 +13,7 @@ export default function Home() {
       <Introduction/>
       <CoreServices/>
       <ServiceCategories/>
+      <MentalHealthDetail/>
       <Team/>
       <Contact/>
     </main>
