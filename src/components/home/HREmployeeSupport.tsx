@@ -43,10 +43,10 @@ const HREmployeeSupport = () => {
         
         {/* Section Header */}
         <div className="mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 text-center">
             HR & Employee Support Service
           </h2>
-          <div className="w-20 h-1.5 bg-blue-600 rounded-full"></div>
+          <div className="w-20 h-1.5 bg-blue-600 rounded-full mx-auto"></div>
         </div>
 
         {/* 3 Cards Grid */}
