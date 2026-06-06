@@ -2,6 +2,12 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowRight, X, CheckCircle2 } from "lucide-react";
+import PFA from "./training-details/PFA";
+import WorkplaceWellbeing from "./training-details/WorkplaceWellbeing";
+import StressManagement from "./training-details/StressManagement";
+import BehavioralEngineering from "./training-details/BehavioralEngineering";
+import EAP from "./training-details/EAP";
+import ResilientMinds from "./training-details/ResilientMinds";
 
 type TrainingItem = {
   id: number;
@@ -9,6 +15,7 @@ type TrainingItem = {
   image: string;
   shortDesc: string;
   fullDesc: string[];
+  component?: React.ReactNode;
 };
 
 const TrainingServices = () => {
@@ -23,7 +30,8 @@ const TrainingServices = () => {
       shortDesc: "Psychological First Aid (PFA) training equips individuals to support people experiencing distress during crises or traumatic events",
       fullDesc: [
         "It provides practical, hands-on skills to reduce panic, stabilize emotions, and connect affected individuals to appropriate support and resources. This training ensures teams are prepared to respond calmly and effectively when people need help the most."
-      ]
+      ],
+      component: <PFA />
     },
     {
       id: 2,
@@ -33,7 +41,8 @@ const TrainingServices = () => {
       fullDesc: [
         "Workplace stress, burnout, and emotional challenges can affect focus, performance, and overall well-being.",
         "This training equips teams and organizations with practical strategies to promote mental well-being, foster resilience, and create a supportive, healthy work environment for everyone."
-      ]
+      ],
+      component: <WorkplaceWellbeing />
     },
     {
       id: 3,
@@ -43,7 +52,8 @@ const TrainingServices = () => {
       fullDesc: [
         "This training provides practical strategies to identify stress triggers, manage anxiety, and build resilience at work.",
         "Teams learn actionable techniques to stay calm under pressure, maintain productivity, and create a healthier, more supportive work environment."
-      ]
+      ],
+      component: <StressManagement />
     },
     {
       id: 4,
@@ -54,7 +64,8 @@ const TrainingServices = () => {
         "Small changes in behavior can lead to big results.",
         "This training introduces the principles of behavioral engineering and choice architecture, helping organizations design environments and processes that guide better decisions, improve productivity, and foster positive workplace habits.",
         "Teams learn practical strategies to influence behavior ethically, enhance engagement, and create a workplace that naturally encourages smarter choices."
-      ]
+      ],
+      component: <BehavioralEngineering />
     },
     {
       id: 5,
@@ -65,7 +76,8 @@ const TrainingServices = () => {
         "Supporting employees means supporting the organization.",
         "An Employee Assistance Programme (EAP) provides confidential counseling and support services to help employees manage personal and work-related challenges, from stress and mental health concerns to life events and conflicts.",
         "This service equips teams with timely support, promotes well-being, reduces workplace stress, and enhances overall productivity and engagement."
-      ]
+      ],
+      component: <EAP />
     },
     {
       id: 6,
@@ -76,7 +88,9 @@ const TrainingServices = () => {
         "Resilient employees build resilient organizations.",
         "This training focuses on strengthening mental resilience at both individual and team levels, helping employees cope with challenges, adapt to change, and maintain performance under pressure.",
         "Teams learn practical strategies to manage stress, recover from setbacks, and cultivate a positive, resilient workplace culture that drives long-term success."
-      ]
+      ],
+      component: <ResilientMinds />
+
     }
   ];
 
