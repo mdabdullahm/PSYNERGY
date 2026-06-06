@@ -37,14 +37,15 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed w-full z-[100] transition-all duration-500 ${
-        scrolled ? "bg-white/90 backdrop-blur-md shadow-md py-3" : "bg-transparent py-5"
+        scrolled ? "bg-white/40 backdrop-blur-md shadow-md py-3" : "bg-transparent py-5"
       }`}
     >
       <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           
           {/* Logo */}
-          <div className="flex-shrink-0">
+          <div className="flex items-center gap-1 flex-shrink-0">
+            <img src="/navlogo.jpg" alt="companey log" className="w-8 h-8"/>
             <Link href="/" className="text-2xl font-extrabold tracking-tighter text-blue-600">
               PSYNERGY<span className="text-gray-800">BD</span>
             </Link>
