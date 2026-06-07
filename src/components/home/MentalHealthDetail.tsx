@@ -26,7 +26,7 @@ const TrainingServices = () => {
     {
       id: 1,
       title: "Psychological First Aid (PFA) training",
-      image: "https://i.ibb.co.com/FLQW3gSN/photo-1542744173-8e7e53415bb0.png",
+      image: "https://images.unsplash.com/photo-1558403194-611308249627?q=80&w=2070&auto=format&fit=crop",
       shortDesc: "Psychological First Aid (PFA) training equips individuals to support people experiencing distress during crises or traumatic events",
       fullDesc: [
         "It provides practical, hands-on skills to reduce panic, stabilize emotions, and connect affected individuals to appropriate support and resources. This training ensures teams are prepared to respond calmly and effectively when people need help the most."
@@ -36,7 +36,7 @@ const TrainingServices = () => {
     {
       id: 2,
       title: "Mental Health – Workplace Well-being Management",
-      image: "https://i.ibb.co.com/ZzMkfZpG/Untitled.avif",
+      image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?q=80&w=1974&auto=format&fit=crop",
       shortDesc: "Mental health is key to a productive and engaged workforce",
       fullDesc: [
         "Workplace stress, burnout, and emotional challenges can affect focus, performance, and overall well-being.",
@@ -47,7 +47,7 @@ const TrainingServices = () => {
     {
       id: 3,
       title: "Stress and Anxiety Management at the Workplace",
-      image: "https://i.ibb.co.com/0yjrxcch/Untitled.png",
+      image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=2070&auto=format&fit=crop",
       shortDesc: "Workplace stress and anxiety are growing challenges that impact focus, performance, and team morale",
       fullDesc: [
         "This training provides practical strategies to identify stress triggers, manage anxiety, and build resilience at work.",
@@ -58,7 +58,7 @@ const TrainingServices = () => {
     {
       id: 4,
       title: "Behavioral Engineering and Choice Architecture",
-      image: "https://i.ibb.co.com/FLQW3gSN/photo-1542744173-8e7e53415bb0.png",
+      image: "https://i.ibb.co.com/zVBftNNq/team-colleagues-using-building-model-inspiration-design-construction-layout-man-woman-working-with-m.jpg",
       shortDesc: "Small changes in behavior can lead to big results. This training introduces the principles of behavioral engineering",
       fullDesc: [
         "Small changes in behavior can lead to big results.",
@@ -70,7 +70,7 @@ const TrainingServices = () => {
     {
       id: 5,
       title: "Employee Assistance Programme (EAP)",
-      image: "https://i.ibb.co.com/ZzMkfZpG/Untitled.avif",
+      image: "https://i.ibb.co.com/Kcq6K3hy/people-watching-laptop-with-interest.jpg",
       shortDesc: "Supporting employees means supporting the organization. EAP provides confidential counseling and support services",
       fullDesc: [
         "Supporting employees means supporting the organization.",
@@ -82,7 +82,7 @@ const TrainingServices = () => {
     {
       id: 6,
       title: "Building Resilient Minds: Organizational",
-      image: "https://i.ibb.co.com/0yjrxcch/Untitled.png",
+      image: "https://i.ibb.co.com/7NLLWrJn/13135.jpg",
       shortDesc: "Resilient employees build resilient organizations. This training focuses on strengthening mental resilience at both individual and team levels",
       fullDesc: [
         "Resilient employees build resilient organizations.",
