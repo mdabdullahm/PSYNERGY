@@ -33,7 +33,7 @@ const CoreServices = () => {
 
   return (
     <section id="core-services" className="py-10 bg-slate-50">
-      <div className="container mx-auto px-6 lg:px-12">
+      <div className="max-w-full mx-auto px-6 lg:px-12">
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">

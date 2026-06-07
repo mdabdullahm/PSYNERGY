@@ -13,7 +13,7 @@ const Introduction = () => {
 
   return (
     <section id="about" className="py-20 lg:py-32 bg-white overflow-hidden">
-      <div className="container mx-auto px-6 lg:px-12">
+      <div className="max-w-full mx-auto px-6 lg:px-12">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
           
           {/* Left Side: Image with Decorative Elements */}
