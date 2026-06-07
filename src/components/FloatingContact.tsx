@@ -5,8 +5,8 @@ import { MessageCircle, Phone } from "lucide-react";
 
 const FloatingContact = () => {
   // আপনার ফোন নম্বর এখানে দিন
-  const phoneNumber = "+880123456789"; 
-  const whatsappNumber = "880123456789"; // কান্ট্রি কোডসহ শুধু নম্বর
+  const phoneNumber = "+8801713 068 133"; 
+  const whatsappNumber = "8801906 318 141"; // কান্ট্রি কোডসহ শুধু নম্বর
 
   return (
     <div className="fixed bottom-6 w-full px-6 flex justify-between items-center pointer-events-none z-[999]">
