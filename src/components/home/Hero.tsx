@@ -22,7 +22,7 @@ const Hero = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/80 to-transparent"></div>
       </div>
 
-      <div className="container mx-auto px-6 lg:px-12 z-10">
+      <div className="max-w-full mx-auto px-6 lg:px-12 z-10">
         <div className="max-w-full">
           {/* Animated Badge */}
           <motion.div
